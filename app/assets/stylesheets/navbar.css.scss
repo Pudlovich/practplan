@@ -1,0 +1,32 @@
+
+.navbar{
+  font-family: 'Ubuntu';
+  background-color: #B02EDB;
+  
+  a{
+    color: white;
+    &:hover{
+      color: #FFF;
+    }
+  }
+
+  .navbar-brand{
+    font-weight: bold;
+    &:hover{
+      color: #EEE;
+    }
+  }
+
+  ul.nav.navbar-nav > li > a{
+    &:hover{
+      background-color: #C03EEB;
+    }
+    &:focus{
+      background-color: #B02EDB;
+    }
+  }
+
+  .icon-bar{
+    background-color: white;
+  }
+}
