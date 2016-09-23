@@ -1,7 +1,7 @@
 
 .navbar{
   font-family: 'Ubuntu';
-  background-color: #B02EDB;
+  background-color: #891dad;
   
   a{
     color: white;
@@ -19,10 +19,10 @@
 
   ul.nav.navbar-nav > li > a{
     &:hover{
-      background-color: #C03EEB;
+      background-color: #992dbd;
     }
     &:focus{
-      background-color: #B02EDB;
+      background-color: #891dad;
     }
   }
 
